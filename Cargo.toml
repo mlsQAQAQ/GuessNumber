@@ -1,0 +1,8 @@
+[package]
+name = "gui_guessing_game"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fltk = { version = "1.4", features = ["fltk-bundled"] }
+rand = "0.8.5"
